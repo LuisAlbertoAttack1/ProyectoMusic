@@ -1,0 +1,66 @@
+.TipoDeLetraYFondo{
+    background-color: #0b043d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Letra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #0b043d;
+}
+.ColorDeBoton{
+    background-color: #03045e;
+}
+.TipoDeLetraEnTitulo{
+    font-family: Arial Black;
+  
+}
+.TipoDeLetraEnSubTitulo{
+    font-family: Arial Black;
+    font-size: 3rem;
+}
+.colorPruebaCard{
+    transition-duration: 1s; 
+    /* background: #fafafa10;
+    backdrop-filter: blur(0.4rem); */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.colorPruebaCard:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.ColorDeCard6PorColumnas{
+    transition-duration: 1s; 
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.ColorDeCard6PorColumnas:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.ContenidoDeVideos {
+    transition: transform 0.3s ease;
+  }
+ 
+  .ContenidoDeVideos:hover {
+    transform: scale(1.05);
+  
+}
+
+/* .btn-outline-light:hover{
+    color: #0b043d;
+} */
+.menu-fixed{ 
+    position: fixed;
+      width: 100%;
+      top:0;
+      z-index: 1000;
+}
